@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+import {cn} from '/src/lib/utils'
 
 
 
-const skill = [
+const skills = [
     //Frontend
     {name: "HTML5/CSS3", level: 90, category: "frontend"},
     {name: "JavaScript", level: 90, category: "frontend"},
@@ -55,10 +56,17 @@ const skill = [
 
 ]
 
+const categories = ["All", "frontend", "backend","AI","tools"]
 
 const SkillsSection = () => {
 
-    const getCardColor = (category) => {
+  const [activeCategory, setActiveCategory] = useState("All")
+
+  const filterSkills = skills.filter((skill) => 
+    activeCategory === "All" || skill.category === activeCategory
+  );
+
+  const getCardColor = (category) => {
   switch (category) {
     case 'frontend':
       return 'bg-pink-900/10 border border-pink-500';
@@ -80,9 +88,23 @@ const SkillsSection = () => {
                 My <span className='text-primary'> Skills </span>
             </h2>
 
+            <div className='flex flex-wrap justify-center gap-4 mb-12 '>
+                {categories.map((category,key) => (
+                  <button key={key}
+                  onClick={()=> setActiveCategory(category)}
+                  className={cn(
+                    'px-5 py-2 rounded-full transition-colors duration-300 capitalize',
+                    activeCategory === category ? 'bg-primary text-primary-foreground' : 'bg-secondary/70 text-foreground hover:id-secondary'
+                  )}>
+                    {category}
+                  </button>
+                ))}
+
+            </div>
+
             <div className='columns-2 sm:columns-2 lg:columns-7 gap-x-8'>
 
-                {skill.map((skill,key) => (
+                {filterSkills.map((skill,key) => (
                     <div
                         key={key} 
                         className={`bg-card p-6 rounded-lg shadow-xs card-hover mb-6  ${getCardColor(skill.category)}`}>
