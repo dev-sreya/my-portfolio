@@ -7,6 +7,7 @@ import AboutMe from '../components/AboutMe'
 import SkillsSection from '../components/SkillsSection'
 import ProjectsSection from '../components/ProjectsSection'
 import ContactSection from '../components/ContactSection'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -34,6 +35,7 @@ const Home = () => {
       </main>
 
       {/* Footer */}
+      <Footer />
       
     </div>
   )
