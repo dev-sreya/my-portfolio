@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
             <div className='space-y-6'>
                 <h3 className='text-2xl font-semibold'>
-                    Passionate web developer & cutting-edge tech creator
+                    Passionate software developer, building solutions in modern tech and AI
                 </h3>
 
                 <p className='text-muted-foreground'>
@@ -22,7 +22,9 @@ const AboutMe = () => {
                 </p>
 
                 <p className='text-muted-foreground'>
-                    I'm passionate about creating elegant solutions to complex problems and I'm constantly learning new technogies and techniques to stay at the forefront of the ever evolving web landscape.
+                    Backend-focused Software Developer with experience building robust, scalable, and high-performance AI systems and microservices. <br />
+Proficient in Python, Golang, Node.js, RESTful APIs, databases, and modern cloud-native technologies. <br />
+I'm constantly learning new technogies and techniques to stay at the forefront of the ever evolving tech landscape.
                 </p>
 
                 <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
@@ -30,7 +32,7 @@ const AboutMe = () => {
                         {""}
                         Get In Touch
                     </a>
-                    <a href='#contact' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
+                    <a href='https://drive.google.com/file/d/1vv51yGOqC3Bo9JgFzCMBtTt3l15KO_CX/view?usp=sharing' target="_blank" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
                         Download CV
                     </a>
 
@@ -45,10 +47,10 @@ const AboutMe = () => {
 
                         <div className='text-left'>
                             <h4 className='font-semibold text-lg'>
-                                Web Development
+                                Custom Web Development
                             </h4>
                             <p className='text-muted-foreground'>
-                                Creating responsive websites and web applications with modern frameworks.
+                                Creating MVP and web applications with modern frameworks for seemless experience.
                             </p>
                         </div>
                         
@@ -62,10 +64,10 @@ const AboutMe = () => {
 
                         <div className='text-left'>
                             <h4 className='font-semibold text-lg'>
-                                UI/UX Design
+                                Large-Scale Backend System Design & Development
                             </h4>
                             <p className='text-muted-foreground'>
-                                Designing intuitive user interfaces and seemless user experiences.
+                                Designing high performant distributed systems and developing using cloud native technologies like AWS
                             </p>
                         </div>
                         
@@ -79,10 +81,10 @@ const AboutMe = () => {
 
                         <div className='text-left'>
                             <h4 className='font-semibold text-lg'>
-                                Project Management
+                                AI Application Development and Automation
                             </h4>
                             <p className='text-muted-foreground'>
-                                Leading projects from conception to completion with agile methodologies.
+                                From Python Data Analysis to creating Full stack AI software solutions to Streamline business processes with intelligent automation using AI-powered tools.
                             </p>
                         </div>
                         

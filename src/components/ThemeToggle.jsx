@@ -6,7 +6,7 @@ import {cn} from '/src/lib/utils'
 
 const ThemeToggle = () => {
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
      useEffect(() => {
         // Check localStorage first, then system preference

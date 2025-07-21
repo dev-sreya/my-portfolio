@@ -11,7 +11,7 @@ import { experiences } from '../constants/constants'
 const ExperienceCard = ({experience,isDarkMode}) => (
 
     
-    <VerticalTimelineElement
+    <VerticalTimelineElement id='experience'
     contentStyle={{background:  '#1d1836', color:'#fff'}}
     contentArrowStyle={{ borderRight: '7px solid #232631'}}
     date={experience.date} 

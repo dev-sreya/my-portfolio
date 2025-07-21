@@ -14,7 +14,7 @@ const HeroSection = () => {
                 </h1>
 
                 <p className='text-lg md:text-xl text-muted-foreground max-2-2xl max-auto opacity-0 animate-fade-in-delay-3 '>
-                    Hey I am a software developer creating custom solutions for everyone. Be it MVP or Large scale systems I'll do it all!
+                    Hey I am a software developer creating custom software solutions for everyone. Be it MVP or Large scale systems I'll do it all!
                 </p>
 
                 <div className='pt-4 opacity-0 animate-fade-in-delay-4'>

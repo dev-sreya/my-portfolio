@@ -31,15 +31,15 @@ const ContactSection = () => {
                         Contact Information
                     </h3>
 
-                    <div className='space-y-6 justify-center'>
+                    <div className='space-y-6'>
                         <div className='flex items-start space-x-4'>
                             <div className='p-3 rounded-full bg-primary/10'>
                                 <Mail className='h-6 w-6 text-primary' /> {" "}
                             </div>
 
                             <div>
-                                <h4 className='font-medium '> Email </h4>
-                                <a href='mailto:sreya123z@gmail.com' className='text-muted-foreground hover:text-primary transition-colors'>  sreya123z@gmail.com </a>
+                                <h4 className='font-medium text-left'> Email </h4>
+                                <a href='mailto:sreya123z@gmail.com' className='text-muted-foreground hover:text-primary transition-colors'>  sreyaworldz@gmail.com </a>
                             </div>
                         </div>
 
@@ -49,8 +49,8 @@ const ContactSection = () => {
                             </div>
 
                             <div>
-                                <h4 className='font-medium '> Phone </h4>
-                                <a href='tel:+919874584555' className='text-muted-foreground hover:text-primary transition-colors'>  +91-9874584555 </a>
+                                <h4 className='font-medium text-left'> Phone </h4>
+                                <a href='tel:+919874584555' className='text-muted-foreground hover:text-primary transition-colors'>  +91-9748645488 </a>
                             </div>
                         </div>
 
@@ -60,18 +60,18 @@ const ContactSection = () => {
                             </div>
 
                             <div>
-                                <h4 className='font-medium '> Location </h4>
+                                <h4 className='font-medium text-left'> Location </h4>
                                 <a  className='text-muted-foreground hover:text-primary transition-colors'>  Bangalore, Karnataka, India </a>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className='px-8'>
+                    <div className='px-8 text-left'>
                         <h4 className='font-medium mb-4'>
                             Connect with Me
                         </h4>
-                        <div className='flex space-x-4 justify-center'>
+                        <div className='flex space-x-4'>
                             <a href='#' target='_blank'>
                                 <Linkedin />
                             </a>

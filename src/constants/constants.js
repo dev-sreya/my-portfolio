@@ -67,10 +67,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2019 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched Developed scalable NLP pipelines and gained hands-on experience with tools like spaCy, NLTK, and HuggingFace Transformers.",
+      "Applied advanced algorithms and AI techniques to solve real-world problems in text analytics and bioinformatics",
+      "Contributed to comparative analysis on machine learning and NLP models for tasks like sentiment analysis, nammed entity recognition, and text classification using PyTorch, Python",
     ],
   },
   {
@@ -80,10 +79,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2013 - July 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a strong foundation in core subjects including Data Structures, Algorithms, Operating Systems, and Database Systems, Computer Networks.",
+      "Developed software applications using C++, Java with a focus on clean code and object-oriented principles.",
     ],
   },
 ];

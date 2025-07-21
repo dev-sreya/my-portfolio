@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center '>
         <p className='text-sm text-muted-foreground'> 
             {" "}
-            &copy; {new Date().getFullYear()} Sreyatech.co. All righhts resserved.
+            &copy; {new Date().getFullYear()} sreyatech.co. All righhts resserved.
 
         </p>
 

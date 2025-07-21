@@ -6,6 +6,7 @@ import {cn} from '/src/lib/utils'
 const navItems = [
     { name: "Home", href: "#hero"},
     { name: "About", href: "#about"},
+    { name: "Experience", href: "#experience"},
     { name: "Skills", href: "#skills"},
     { name: "Projects", href: "#projects"},
     { name: "Contact Me", href: "#contact"},
@@ -38,6 +39,7 @@ const Navbar = () => {
             
             href='#hero'>
                 <span className='hidden md:flex relative z-10'>
+                    <img src='./logop.png' className='w-5 h-5 mr-2'/>
                     <span className='text-glow text-foreground'>
                         SreyaTech
                     </span> Portfolio
