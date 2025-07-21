@@ -1,18 +1,21 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from 'lucide-react'
-import React from 'react'
 import {cn} from '/src/lib/utils'
+import { useRef } from 'react'
 
 const ContactSection = () => {
 
-    const handleSubmit = (e) => {
+    const formRef = useRef(null);
 
-        e.preventDefault()
+  const handleSubmit = (e) => {
+    // Wait a bit to allow the form to be submitted to Web3Forms
+    setTimeout(() => {
+      if (formRef.current) {
+        formRef.current.reset(); //  Clears all form fields
+      }
+    }, 150); // Delay slightly to ensure form submission happens
+  };
 
-        setTimeout(() => {
-            
-        }, 150);
-
-    }
+ 
   return (
 
     <section id='contact' className='py-24 px-4 relative bg-secondary/30'>
@@ -72,15 +75,15 @@ const ContactSection = () => {
                             Connect with Me
                         </h4>
                         <div className='flex space-x-4'>
-                            <a href='#' target='_blank'>
+                            <a href='https://www.linkedin.com/in/sreya-karmakar-622752167/' target='_blank'>
                                 <Linkedin />
                             </a>
 
-                            <a href='#' target='_blank'>
+                            <a href='https://www.instagram.com/sreya2sk' target='_blank'>
                                 <Instagram />
                             </a>
 
-                            <a href='#' target='_blank'>
+                            <a href='https://https://x.com/sreya_intech' target='_blank'>
                                 <Twitter />
                             </a>
 
@@ -94,33 +97,41 @@ const ContactSection = () => {
                 <div className='bg-card p-8 rounded-lg shadow-xs'>
                     <h3 className='text-2xl font-semibold mb-6'>  Send a Message </h3>
 
-                    <form className='space-y-6'>
+                    <form ref={formRef}
+                    action="https://api.web3forms.com/submit" method="POST" target='_blank'
+                    onSubmit={handleSubmit}
+                    className='space-y-6'>
+
+                        <input type="hidden" name="access_key" value="97158c67-9de8-4b4e-9371-7169378b1fa6"/>
+
                         <div>
-                            <label htmlFor='name' className='block text-sm font-medium mb-2'> {" "} Your Name </label>
+                            <label htmlFor='name' className='block text-sm font-medium mb-2 text-left'> {" "} Your Name </label>
                             <input type='text'
                             id='name'
                             name='name'
                             required
-                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='Pablo Stuard...' />
+                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='John Doe...' />
                         </div>
 
                         <div>
-                            <label htmlFor='email' className='block text-sm font-medium mb-2'> {" "} Your Email </label>
+                            <label htmlFor='email' className='block text-sm font-medium mb-2 text-left'> {" "} Your Email </label>
                             <input type='email'
                             id='email'
                             name='email'
                             required
-                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='abcdef@email.com...' />
+                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='john123@email.com...' />
                         </div>
 
                         <div>
-                            <label htmlFor='message' className='block text-sm font-medium mb-2'> {" "} Your Message </label>
+                            <label htmlFor='message' className='block text-sm font-medium mb-2 text-left'> {" "} Your Message </label>
                             <textarea type='text'
                             id='message'
                             name='message'
                             required
-                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none' placeholder='I saw you profile I would like to talk about...' />
+                            className='w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none' placeholder='Hey, I saw your profile, I would like to talk about...' />
                         </div>
+
+                        <input type="checkbox" name="botcheck" className="hidden" />
 
                         <button type='submit' className={cn('cosmic-button w-full flex items-center justify-center gap-2',
 
