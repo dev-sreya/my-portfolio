@@ -6,7 +6,7 @@ const projects = [
         id: 1,
         title: 'E commerce Platform',
         description: 'A platform that includes shopping cart, product reviews and ratings, user profile with orders, Admin product and management, PayPal / credit card integration.',
-        image: '/projects/project1.jpg',
+        image: '/projects/project1.png',
         tags: ['react', 'django-rest', 'bootstrap','postgresql','Django','javascript','redux-toolit','JWT Auth'],
         demoUrl: 'https://github.com/dev-sreya/ecommerce-full-stack-app-Django-React',
         githubUrl: 'https://github.com/dev-sreya/ecommerce-full-stack-app-Django-React'
@@ -16,8 +16,8 @@ const projects = [
         id: 2,
         title: 'InstaDraw realtime collaborative drawing tool',
         description: 'InstaDraw is an open-source, real-time drawing and whiteboarding app that lets multiple users sketch, annotate, and collaborate simultaneously on a shared canvas.',
-        image: '/projects/project2.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
+        image: '/projects/project2.png',
+        tags: ['react', 'tailwindCSS', 'websockets','node.js','Typescript'],
         demoUrl: 'https://github.com/dev-sreya/InstaDraw-real-time-drawing-tool',
         githubUrl: 'https://github.com/dev-sreya/InstaDraw-real-time-drawing-tool'
 
@@ -26,8 +26,8 @@ const projects = [
         id: 3,
         title: 'Dev Portfolio',
         description: 'A modern stunning developer porfolio with all the necessary sections with eye-catchy animations.',
-        image: '/projects/project3.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
+        image: '/projects/project3.png',
+        tags: ['react', 'tailwindCSS', 'JavaScript','Framer motion' ],
         demoUrl: 'https://github.com/dev-sreya/my-portfolio',
         githubUrl: 'https://github.com/dev-sreya/my-portfolio'
 
@@ -36,8 +36,8 @@ const projects = [
         id: 4,
         title: 'Chat Application',
         description: 'A simple and responsive real-time chat application React.js on the frontend and Node.js with WebSockets (ws) on the backend. This app supports multi-user chat, chat rooms, and real-time message updates without page reloads',
-        image: '/projects/project1.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
+        image: '/projects/project4.png',
+        tags: ['react', 'tailwindCSS', 'websocketts','ws','node.js'],
         demoUrl: 'https://github.com/dev-sreya/chat-app-ws-nodejs',
         githubUrl: 'https://github.com/dev-sreya/chat-app-ws-nodejs'
 
@@ -46,8 +46,8 @@ const projects = [
         id: 5,
         title: 'Advanced Backend System',
         description: 'A fully functional advanced backend system with email validation and strong password validations.',
-        image: '/projects/project2.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
+        image: '/projects/project5.png',
+        tags: ['react', 'Multi-factor Auth', 'JavaScript'],
         demoUrl: 'https://github.com/dev-sreya/advanced-auth',
         githubUrl: 'https://github.com/dev-sreya/advanced-auth'
 
@@ -56,8 +56,8 @@ const projects = [
         id: 6,
         title: 'OCR application with AI question answering feature',
         description: 'An intelligent OCR app that scans images, extracts text, and instantly answers your questions based on the content — turning visuals into knowledge',
-        image: '/projects/project3.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
+        image: '/projects/project6.png',
+        tags: ['JavaScript', 'Fast APT', 'OCR', 'AI','AJAX'],
         demoUrl: 'https://github.com/dev-sreya/fastapi-ocr-q-a-app',
         githubUrl: 'https://github.com/dev-sreya/fastapi-ocr-q-a-app'
 
@@ -130,7 +130,7 @@ const ProjectsSection = () => {
 
         </div>
 
-        <div className='text-center mb-12'>
+        <div className='text-center pt-5 mb-12'>
           <a className='cosmic-button w-fit flex items-center mx-auto gap-2' href='https://github.com/dev-sreya'>
             Check my Github <ArrowRight size={16} />
           </a>

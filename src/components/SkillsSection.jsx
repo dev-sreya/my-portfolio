@@ -4,25 +4,16 @@ import {cn} from '/src/lib/utils'
 
 
 const skills = [
-    //Frontend
-    {name: "HTML5/CSS3", level: 90, category: "frontend"},
-    {name: "JavaScript", level: 90, category: "frontend"},
-    {name: "React", level: 90, category: "frontend"},
-    {name: "TypeScript", level: 90, category: "frontend"},
-    {name: "TailwindCSS", level: 90, category: "frontend"},
-    {name: "Bootstrap", level: 90, category: "frontend"},
-    {name: "Next.js", level: 90, category: "frontend"},
-    {name: "Framer Motion", level: 90, category: "frontend"},
-    {name: "Framer", level: 90, category: "frontend"},
-    {name: "GSAP", level: 90, category: "frontend"},
 
-    //backend
+     //backend
 
-    {name: "node.js", level: 90, category: "backend"},
-    {name: "express", level: 90, category: "backend"},
+   
     {name: "python", level: 90, category: "backend"},
+     {name: "Golang", level: 90, category: "backend"},
     {name: "Django", level: 90, category: "backend"},
-    {name: "Golang", level: 90, category: "backend"},
+    {name: "FastAPI", level: 90, category: "backend"},
+     {name: "node.js", level: 90, category: "backend"},
+    {name: "express", level: 90, category: "backend"},
     {name: "Gin", level: 90, category: "backend"},
     {name: "Fiber", level: 90, category: "backend"},
     {name: "MongoDB", level: 90, category: "backend"},
@@ -34,6 +25,19 @@ const skills = [
     {name: "Websockets", level: 90, category: "backend"},
     {name: "gRPC", level: 90, category: "backend"},
 
+
+    //Frontend
+    {name: "HTML5", level: 90, category: "frontend"},
+    {name: "CSS3", level: 90, category: "frontend"},
+    {name: "JavaScript", level: 90, category: "frontend"},
+    {name: "React.js", level: 90, category: "frontend"},
+    {name: "TypeScript", level: 90, category: "frontend"},
+    {name: "TailwindCSS", level: 90, category: "frontend"},
+    {name: "Bootstrap", level: 90, category: "frontend"},
+    {name: "Next.js", level: 90, category: "frontend"},
+    {name: "Framer Motion", level: 90, category: "frontend"},
+
+ 
     //AI/ML
 
     {name: "PyTorch", level: 90, category: "AI"},
@@ -49,14 +53,12 @@ const skills = [
 
     {name: "Git/Github", level: 90, category: "tools"},
     {name: "Docker", level: 90, category: "tools"},
-    {name: "AWS Lambda", level: 90, category: "tools"},
+    {name: "AWS", level: 90, category: "tools"},
     {name: "VSCode", level: 90, category: "tools"},
     {name: "PyCharm", level: 90, category: "tools"},
-    {name: "Figma", level: 90, category: "tools"}
-
 ]
 
-const categories = ["All", "frontend", "backend","AI","tools"]
+const categories = ["All", "backend", "frontend","AI","tools"]
 
 const SkillsSection = () => {
 
