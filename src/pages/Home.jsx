@@ -8,6 +8,7 @@ import SkillsSection from '../components/SkillsSection'
 import ProjectsSection from '../components/ProjectsSection'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
+import Experience from '../components/Experience'
 
 const Home = () => {
 
@@ -29,6 +30,7 @@ const Home = () => {
       <main>
         <HeroSection />
         <AboutMe />
+        <Experience />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />

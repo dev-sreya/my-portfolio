@@ -4,32 +4,62 @@ import React from 'react'
 const projects = [
     {
         id: 1,
-        title: 'SaaS AI Landing Page',
-        description: 'A beautiful landing page app using treact and tailwind',
+        title: 'E commerce Platform',
+        description: 'A platform that includes shopping cart, product reviews and ratings, user profile with orders, Admin product and management, PayPal / credit card integration.',
         image: '/projects/project1.jpg',
-        tags: ['react', 'tailwind', 'superbase'],
-        demoUrl: '',
-        githubUrl: ''
+        tags: ['react', 'django-rest', 'bootstrap','postgresql','Django','javascript','redux-toolit','JWT Auth'],
+        demoUrl: 'https://github.com/dev-sreya/ecommerce-full-stack-app-Django-React',
+        githubUrl: 'https://github.com/dev-sreya/ecommerce-full-stack-app-Django-React'
 
     },
      {
         id: 2,
-        title: 'SaaS AI Dashboard',
-        description: 'A beautiful landing page app using treact and tailwind',
+        title: 'InstaDraw realtime collaborative drawing tool',
+        description: 'InstaDraw is an open-source, real-time drawing and whiteboarding app that lets multiple users sketch, annotate, and collaborate simultaneously on a shared canvas.',
         image: '/projects/project2.jpg',
         tags: ['react', 'tailwind', 'superbase'],
-        demoUrl: '',
-        githubUrl: ''
+        demoUrl: 'https://github.com/dev-sreya/InstaDraw-real-time-drawing-tool',
+        githubUrl: 'https://github.com/dev-sreya/InstaDraw-real-time-drawing-tool'
 
     },
      {
         id: 3,
-        title: 'E commerse platform',
-        description: 'A beautiful landing page app using treact and tailwind',
+        title: 'Dev Portfolio',
+        description: 'A modern stunning developer porfolio with all the necessary sections with eye-catchy animations.',
         image: '/projects/project3.jpg',
         tags: ['react', 'tailwind', 'superbase'],
-        demoUrl: '',
-        githubUrl: ''
+        demoUrl: 'https://github.com/dev-sreya/my-portfolio',
+        githubUrl: 'https://github.com/dev-sreya/my-portfolio'
+
+    },
+      {
+        id: 4,
+        title: 'Chat Application',
+        description: 'A simple and responsive real-time chat application React.js on the frontend and Node.js with WebSockets (ws) on the backend. This app supports multi-user chat, chat rooms, and real-time message updates without page reloads',
+        image: '/projects/project1.jpg',
+        tags: ['react', 'tailwind', 'superbase'],
+        demoUrl: 'https://github.com/dev-sreya/chat-app-ws-nodejs',
+        githubUrl: 'https://github.com/dev-sreya/chat-app-ws-nodejs'
+
+    },
+     {
+        id: 5,
+        title: 'Advanced Backend System',
+        description: 'A fully functional advanced backend system with email validation and strong password validations.',
+        image: '/projects/project2.jpg',
+        tags: ['react', 'tailwind', 'superbase'],
+        demoUrl: 'https://github.com/dev-sreya/advanced-auth',
+        githubUrl: 'https://github.com/dev-sreya/advanced-auth'
+
+    },
+     {
+        id: 6,
+        title: 'OCR application with AI question answering feature',
+        description: 'An intelligent OCR app that scans images, extracts text, and instantly answers your questions based on the content — turning visuals into knowledge',
+        image: '/projects/project3.jpg',
+        tags: ['react', 'tailwind', 'superbase'],
+        demoUrl: 'https://github.com/dev-sreya/fastapi-ocr-q-a-app',
+        githubUrl: 'https://github.com/dev-sreya/fastapi-ocr-q-a-app'
 
     }
 
