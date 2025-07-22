@@ -28,7 +28,7 @@ const projects = [
         description: 'A modern stunning developer porfolio with all the necessary sections with eye-catchy animations.',
         image: '/projects/project3.png',
         tags: ['react', 'tailwindCSS', 'JavaScript','Framer motion' ],
-        demoUrl: 'https://github.com/dev-sreya/my-portfolio',
+        demoUrl: 'https://my-portfolio-henna-alpha-44.vercel.app/',
         githubUrl: 'https://github.com/dev-sreya/my-portfolio'
 
     },
@@ -44,8 +44,8 @@ const projects = [
     },
      {
         id: 5,
-        title: 'Advanced Backend System',
-        description: 'A fully functional advanced backend system with email validation and strong password validations.',
+        title: 'Advanced Authentication System',
+        description: 'A fully functional advanced authentication system with email validation and strong password validations.',
         image: '/projects/project5.png',
         tags: ['react', 'Multi-factor Auth', 'JavaScript'],
         demoUrl: 'https://github.com/dev-sreya/advanced-auth',
