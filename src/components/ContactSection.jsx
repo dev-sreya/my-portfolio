@@ -83,7 +83,7 @@ const ContactSection = () => {
                                 <Instagram />
                             </a>
 
-                            <a href='https://https://x.com/sreya_intech' target='_blank'>
+                            <a href='https://x.com/sreya_intech' target='_blank'>
                                 <Twitter />
                             </a>
 

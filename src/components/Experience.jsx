@@ -29,7 +29,7 @@ const ExperienceCard = ({experience,isDarkMode}) => (
     }
     >
 
-        <div className=''>
+        <div className='container mx-auto max-w-5xl'>
             <h3 className=' text-[24px] font-bold text-secondary text-left'>
                 {experience.title}
             </h3>

@@ -40,9 +40,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2021 - November 2023",
     points: [
-      "Created and maintained media-related microservices for our SaaS platform. Added capabilities for the distributed environment in Python and Golang with Prometheus, Grafana for metrics collection and Monitoring.",
+      "Created and maintained media-related microservices for our AI SaaS platform in Python and Golang with Prometheus, Grafana for metrics collection and Monitoring.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Collaborated on the creation of a zero-touch automation framework of the Edge AI Application (IoT) from scratch, resulting in a 95% reduction in manual testing time with top-tier automation code that comprehensively covers all test cases in Python.",
+      "Collaborated on the creation of a zero-touch automation framework of the Edge AI Application (IoT) from scratch, resulting in a 95% reduction in manual testing time with top-tier automation code in Python.",
       "Implementing responsive design and ensuring cross-browser compatibility using react.js and state management.",
       "Engineered proprietary plugins to incorporate ML pipelines within the framework, ensuring seamless integration across diverse microservices, resulting in 85% coverage of ML use cases.",
       "Utilized Python, Django/DRF, FastAPI, C++, Golang, OOAD, REST API, Docker, MQTT, Redis, PostgreSQL, IOT application development, GitHub, PyCharm, CI/CD, GitHub, Linux, microservices, SQLite, TFLite, JavaScript, React.js, SNPE, AWS, etc.",
