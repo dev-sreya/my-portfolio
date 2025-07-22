@@ -32,7 +32,7 @@ I'm constantly learning new technogies and techniques to stay at the forefront o
                         {""}
                         Get In Touch
                     </a>
-                    <a href='https://drive.google.com/file/d/1Lugh-nRtIUyJkvMcOA1lChrqjs9fgVEJ/view?usp=sharing' target="_blank" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
+                    <a href='https://drive.google.com/file/d/1qhO6IDNTnbQf1d2syeLZlLuZZCEWuFtV/view?usp=sharing' target="_blank" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
                         Download CV
                     </a>
 
