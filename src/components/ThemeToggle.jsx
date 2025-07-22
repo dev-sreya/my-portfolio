@@ -6,19 +6,15 @@ import {cn} from '/src/lib/utils'
 
 const ThemeToggle = () => {
 
-    const [isDarkMode, setIsDarkMode] = useState(true);
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
      useEffect(() => {
         // Check localStorage first, then system preference
         const storedTheme = localStorage.getItem("theme");
      
-        if (storedTheme == "dark") {
-            document.documentElement.classList.add("dark");
-            setIsDarkMode(true);
-        } else {
-            document.documentElement.classList.remove("dark");
-            setIsDarkMode(false);
-        }
+        document.documentElement.classList.add("dark");
+        setIsDarkMode(true);
+    
     }, []);
 
     const toggleTheme = () => {
