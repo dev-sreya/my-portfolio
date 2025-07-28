@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-Welcome to my personal **Developer Portfolio** – a sleek, fully responsive, and animated website built using **JavaScript**, **React**, **TailwindCSS V4**, **lucid react**, and **Framer Motion**. This portfolio is designed to showcase my skills, projects, and experiences as a developer in a visually engaging and performance-optimized way.
+Welcome to my personal **Developer Portfolio** – a sleek, fully responsive, and animated website built using **JavaScript**, **React 19**, **TailwindCSS V4**, **lucid react**, and **Framer Motion**. This portfolio is designed to showcase my skills, projects, and experiences as a developer in a visually engaging and performance-optimized way.
 
 Live link: https://my-portfolio-henna-alpha-44.vercel.app/
 
@@ -10,7 +10,7 @@ Live link: https://my-portfolio-henna-alpha-44.vercel.app/
 
 - ⚡ Fast and lightweight
 - 📱 Fully responsive for all devices
-- ⚛️ Built with modern React (Hooks & Functional Components)
+- ⚛️ Built with modern React (Functional Components)
 - 🎬 Smooth transitions and animations with Framer Motion
 - 🎨 Clean and minimal design using TailwindCSS v4
 - 🌙 Dark and light mode toggle
@@ -21,10 +21,10 @@ Live link: https://my-portfolio-henna-alpha-44.vercel.app/
 ## 🛠️ Tech Stack
 
 - **JavaScript (ES6+)**
-- **React**
+- **React 19**
 - **TailwindCSS v4**
 - **lucid-react**
-- **Framer Motion**
+- **Framer Motion (now Motion)**
 - **Vite** (for fast development build)
 
 ---
